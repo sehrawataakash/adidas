@@ -1,0 +1,322 @@
+    /* UNIVERSAL SECTION  */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Helvetica';
+    }
+
+    /* NAVBAR SECTION  */
+
+    .navbar {
+        height: 40px;
+        width: auto;
+        background-color: black;
+    }
+
+    .small-header {
+        color: white;
+        font-size: 11px;
+        background-color: black;
+        height: 15px;
+        width: 132px;
+        display: inline-block;
+        position: relative;
+        font-weight: bolder;
+        top: 25%;
+        left: 45%;
+    }
+
+    .big-header {
+        background-color: white;
+        color: black;
+        height: 50px;
+        width: 100%;
+        display: inline-block;
+    }
+
+    img {
+        height: 40px;
+        width: 60px;
+        margin-right: 100px;
+        margin-left: 20px;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+        margin-right: 40px;
+    }
+
+    input {
+        margin-right: 15px;
+        margin-left: 60px;
+        border: 2px solid white;
+        background-color: lightgray;
+        color: black;
+        width: 160px;
+        padding-left: 10px;
+        height: 30px;
+        border-radius: 6.5px;
+    }
+
+    i {
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+
+    /* BUTTONS SECTION  */
+
+
+    .buttons-section {
+        width: 100vw;
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+
+    .new-arrivals {
+        width: 100px;
+        height: 45px;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+
+    .best-of-adidas {
+        width: 120px;
+        height: 45px;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        border-radius: 2px;
+    }
+
+    /* MAIN SECTION  */
+
+    /* SHOE SECTION  */
+
+    .shoes-section {
+        width: 100vw;
+        height: 380px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .shoes {
+        width: 22%;
+        height: 380px;
+    }
+
+    .shoe-image {
+        height: 250px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .price {
+        font-family: 'arial';
+        height: 20px;
+        width: 27%;
+        background-color: white;
+        position: relative;
+        bottom: 25px;
+        left: 10px;
+    }
+
+    .shoe-text {
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        margin-left: 10px;
+    }
+
+    .shoe-second-text {
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        color: gray;
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+
+    .shoe-third-text {
+        font-weight: 300;
+        color: black;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    /* SHOP SECTION  */
+
+    .shop-section {
+        width: 100vw;
+        height: 510px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .shops {
+        height: 510px;
+        width: 22%;
+    }
+
+    .shops-image {
+        height: 400px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .shop-text {
+        margin-top: 5px;
+    }
+
+    .shop-second-text {
+        margin-top: 8px;
+        color: grey;
+    }
+
+    .shop-third-text {
+        margin-top: 20px;
+        text-decoration: underline;
+    }
+
+    /* STORIES SECTION  */
+
+    .stories-section {
+        width: 100vw;
+        height: 510px;
+        display: flex;
+        background-color: #fcf4d6;
+    }
+
+    .stories {
+        width: 50%;
+        height: 510px;
+    }
+
+    .stories-text {
+        padding: 40px;
+    }
+
+    .h1ofstory {
+        font-size: 28px;
+    }
+
+    .pofstory {
+        font-size: 16px;
+        line-height: 22.5px;
+    }
+
+    /* JOIN ADIDAS SECTION  */
+
+    .join-adidas-section {
+        width: 100vw;
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: gold;
+    }
+
+    .join-adidas-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .signup {
+        height: 50px;
+        width: 170px;
+        background-color: black;
+        font-weight: bold;
+        border: 1px solid black;
+        color: white;
+        margin-left: 25px;
+    }
+
+    /* FOOTER SECTION  */
+
+    /* FOOTER ONE  */
+
+    .footer-one {
+        width: 100vw;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        line-height: 10px;
+    }
+
+    th,
+    td {
+        padding: 10px;
+    }
+
+    th {
+        font-weight: bold;
+    }
+
+    td {
+        font-size: 15px;
+    }
+
+    .ig-icon {
+        font-size: 25px;
+    }
+
+    td:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    h4:hover {
+        cursor: pointer;
+    }
+
+    button:hover {
+        color: rgb(107, 105, 105);
+        cursor: pointer;
+    }
+
+    /* FOOTER TWO  */
+
+    .footer-two {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(209, 209, 209);
+        width: 100vw;
+        height: 120px;
+        background-color: #232D3F;
+    }
+
+    .footer-para {
+        font-size: 12px;
+    }
+
+    .footer-para-2 {
+        font-size: 12px;
+        position: relative;
+        margin-left: 70px;
+    }
+
+    .footer-icon {
+        position: relative;
+        left: 760px;
+        bottom: 40px;
+        font-size: 25px;
+    }
+
+    /* COMPLETED !!!  */
